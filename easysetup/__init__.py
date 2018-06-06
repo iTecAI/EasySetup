@@ -119,3 +119,4 @@ setup(""".format(classifiers_string, package, version_string)
     cmd2 = 'python -m twine upload -u {} -p {} dist\\*'.format(username, password)
     subprocess.run(cmd2)
     return 0
+main()
